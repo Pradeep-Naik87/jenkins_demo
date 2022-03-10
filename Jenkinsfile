@@ -3,7 +3,7 @@ agent any
 stages{
 stage("clone"){
 steps{
-git  " https://github.com/Pradeep-Naik87/jenkins_demo.git"
+bat "git clone https://github.com/Pradeep-Naik87/jenkins_demo.git"
 }
 }
 stage("compile"){
