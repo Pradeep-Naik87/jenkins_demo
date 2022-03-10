@@ -19,7 +19,7 @@ bat "mvn package"
 }
 
 }
-
+}
 
 
 
